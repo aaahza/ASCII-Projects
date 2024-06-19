@@ -28,27 +28,29 @@ The program uses raycasting techniques to simulate a 3D environment within the c
 
 ## How to Run
 
-1. **Compile**: Use a C++ compiler that supports C++11 or later (e.g., g++, Visual Studio).
+To run this project, follow these steps:
+
+1. **Load Project Files**: Open the project folder in Visual Studio or your preferred IDE.
    
-   Example for g++:
-   ```
-   g++ -o raycaster raycaster.cpp
-   ```
+2. **Compile and Build**: Build the project to compile all source files together.
+   
+3. **Run the Project**: Execute the compiled binary within the IDE's environment or locate the executable file in the project directory and run it directly.
 
-2. **Run**: Execute the compiled binary.
-
-   Example for Windows:
-   ```
-   raycaster.exe
-   ```
+For Visual Studio:
+- Open Visual Studio.
+- Load the entire project folder into Visual Studio.
+- Build the project to compile all source files.
+- Run the project using Visual Studio's debugging features or directly from the output directory.
 
 ## Configuration
 
-- **Screen Dimensions**: Adjust `nScreenWidth` and `nScreenHeight` for desired console size.
-- **Map Dimensions**: Modify `nMapWidth` and `nMapHeight` to change the size of the map.
-- **Player Start Position and Angle**: Update `fPlayerX`, `fPlayerY`, and `fPlayerAngle` to change where and how the player starts.
+- **Screen Dimensions**: Adjust `nScreenWidth` and `nScreenHeight` in the source code for the desired console size.
+- **Map Dimensions**: Modify `nMapWidth` and `nMapHeight` to change the size of the map displayed.
+- **Player Start Position and Angle**: Update `fPlayerX`, `fPlayerY`, and `fPlayerAngle` in the source code to change the starting position and orientation of the player within the map.
 
 ## Notes
 
 - Ensure the console window size is sufficient to display the entire screen (`nScreenWidth` x `nScreenHeight`).
-- The rendering performance may vary depending on the hardware and console window size.
+- The rendering performance may vary depending on the hardware capabilities and console window size.
+  
+By following these instructions, you can successfully compile, build, and run the raycasting engine project in your development environment.
