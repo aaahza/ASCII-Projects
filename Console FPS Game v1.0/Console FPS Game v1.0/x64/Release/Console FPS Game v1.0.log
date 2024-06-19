@@ -1,0 +1,8 @@
+﻿  Console FPS Game v1.0.cpp
+C:\Users\Asa Singh\OneDrive\Desktop\Console FPS Game v1.0\Console FPS Game v1.0\Console FPS Game v1.0.cpp(136,38): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\Asa Singh\OneDrive\Desktop\Console FPS Game v1.0\Console FPS Game v1.0\Console FPS Game v1.0.cpp(145,26): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 170 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  Console FPS Game v1.0.vcxproj -> C:\Users\Asa Singh\OneDrive\Desktop\Console FPS Game v1.0\x64\Release\Console FPS Game v1.0.exe
