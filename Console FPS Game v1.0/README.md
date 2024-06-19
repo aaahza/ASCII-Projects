@@ -2,6 +2,10 @@
 
 This project demonstrates a simple raycasting engine implemented in C++ that renders a 3D-like scene in a console window.
 
+The primary goal of this project is to understand and implement fundamental concepts behind classic first-person shooter games like Wolfenstein 3D, which pioneered the use of raycasting for 3D rendering in a constrained environment.
+
+For more information on the history and implementation of games like Wolfenstein 3D, refer to [Wolfenstein 3D - Wikipedia](https://en.wikipedia.org/wiki/Wolfenstein_3D) and [First Person Shooter](https://www.youtube.com/watch?v=xW8skO7MFYw)
+
 ## Overview
 
 The program uses raycasting techniques to simulate a 3D environment within the constraints of a console window. It renders walls, floors, and ceilings based on a map defined in the code. The player can move within the map and rotate the view using keyboard input.
